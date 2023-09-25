@@ -1,0 +1,436 @@
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90px;
+    padding: 0 20px;
+    border-radius: 0px 0px 20px 20px;
+    background: linear-gradient(87deg, #295773 0%, #70731D 100%);
+}
+
+.header__logo {
+    padding: 15px 0;
+}
+
+.header__buscar {
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Assistant', sans-serif;
+    font-weight: var(--bold);
+    background-image: url(/assents/magnifying-glass-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding: 0 35px;
+}
+
+
+
+/* Main */
+
+/* Palestrantes */
+
+.palestrantes {
+    padding-top: 25px;
+}
+
+.palestrantes__title {
+    font-size: 1rem;
+    font-weight: var(--extrabold);
+    padding: 0 20px 10px 20px;
+}
+
+.palestrantes__carousel {
+    display: flex;
+    overflow-x: auto;
+}
+
+/* Barra de scroll transparente */
+.palestrantes__carousel::-webkit-scrollbar {
+    opacity: 0;
+}
+
+.palestrantes__carousel {
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
+}
+
+.palestrantes__itens {
+    display: flex;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.palestrantes__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 130px;
+    height: 160px;
+    border-radius: 20px;
+}
+
+.item__title {
+    font-size: 0.875rem;
+    line-height: 99.8%;
+    font-weight: var(--extrabold);
+    color: var(--white);
+    text-align: center;
+}
+
+.item__paragraph {
+    font-size: 0.75rem;
+    line-height: 99.8%;
+    font-weight: var(--regular);
+    color: var(--white);
+    padding: 6px 0 6px 15px;
+}
+
+strong {
+    font-weight: var(--bold);
+}
+
+
+/* fotos - Palestrantes */
+
+.bgCristiano {
+    background-image: url(/assents/foto-cristiano-teixeira.svg);
+}
+
+.bgBemJerry {
+    background-image: url(/assents/foto-ben-cohen-e-jerry-greenfield.svg);
+}
+
+.bgRyan {
+    background-image: url(/assents/foto-ryan-gellert.svg);
+}
+
+.bgFabio {
+    background-image: url(/assents/foto-fabio-faccio.svg);
+}
+
+.bgEthan {
+    background-image: url(/assents/foto-ethan-brown.svg);
+}
+
+/* Temas */
+
+.temas__container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 25px 20px 0 20px;
+
+}
+
+.temas__title {
+    font-size: 1rem;
+    font-weight: var(--extrabold);
+    line-height: 99.8%;
+}
+
+.temas__card {
+    display: flex;
+    width: auto;
+    height: 137px;
+    border-radius: 20px;
+    align-items: end;
+}
+
+.temas__card__title {
+    font-size: 1.25rem;
+    font-weight: var(--extrabold);
+    padding: 0 0 10px 15px;
+    color: var(--white);
+}
+
+
+/* fotos - Temas */
+
+.bgCarros {
+    background-image: url(/assents/card-carros-eletricos.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bgTratamento {
+    background-image: url(/assents/card-tratamento-de-agua.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bgPlacas {
+    background-image: url(/assents/card-placas-solares.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Botao para compra de ingresso */
+
+.buttonIngresso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 20px 0 20px;
+}
+
+.buttonIngresso__title {
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: var(--extrabold);
+    text-decoration: none;
+    text-align: center;
+    padding: 7px 84px;
+    border-radius: 20px;
+    background: var(--gradient);
+}
+
+
+/* Estandes */
+
+.estandes__title {
+    font-size: 1rem;
+    font-weight: var(--extrabold);
+    padding: 25px 20px 0 20px;
+}
+
+.estandes__carousel {
+    display: flex;
+    overflow-x: auto;
+}
+
+.estandes__itens {
+    display: flex;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+/* Barra de scroll transparente */
+.estandes__carousel::-webkit-scrollbar {
+    opacity: 0;
+}
+
+.estandes__carousel {
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
+}
+
+
+/* Local */
+
+.local {
+    padding: 10px 20px 0 20px;
+}
+
+.local__title {
+    font-size: 1rem;
+    font-weight: var(--extrabold);
+    padding-bottom: 10px;
+}
+
+.local__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-image: url(/assents/foto-ecovista-center.svg);
+    height: 248px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.local__card__title {
+    font-size: 1rem;
+    font-weight: var(--extrabold);
+    color: var(--white);
+}
+
+.local__card__paragraph {
+    font-size: 0.875rem;
+    font-weight: var(--bold);
+    line-height: 99.8%;
+    text-align: center;
+    color: var(--white);
+    padding: 10px 19px;
+}
+
+/* Agenda */
+
+.agenda {
+    padding: 25px 20px 0 20px;
+}
+
+.agenda__title {
+    font-size: 1rem;
+    font-weight: var(--extrabold);
+}
+
+.agenda__day {
+    font-size: 0.875rem;
+    font-weight: var(--extrabold);
+    padding: 13px 0 6px 0;
+}
+
+.agenda__container {
+    display: flex;
+    border: 3px solid var(--gray);
+}
+
+.agenda__horarios {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    border-right: 3px solid var(--gray);
+    padding: 3px 34px 17px 4px;
+}
+
+.agenda__palestras {
+    width: 100%;
+}
+
+.agenda__horarios__texto {
+    font-size: 0.75rem;
+    font-weight: var(--extrabold);
+    color: var(--gray);
+}
+
+.agenda__palestras__energia {
+    background-color: var(--darkblue);
+    border-radius: 5px;
+    color: var(--white);
+    margin: 5px;
+    padding-bottom: 22px;
+    min-height: 71px;
+}
+
+.agenda__palestras__mobilidade {
+    background-color: var(--darkgreen);
+    border-radius: 5px;
+    color: var(--white);
+    margin: 5px;
+    padding-bottom: 8px;
+    min-height: 43px;
+}
+
+.agenda__palestras__smart {
+    background-color: var(--blue);
+    border-radius: 5px;
+    color: var(--white);
+    margin: 5px;
+    padding-bottom: 8px;
+    min-height: 55px;
+}
+
+.agenda__palestras__tecnologia {
+    background-color: var(--green);
+    border-radius: 5px;
+    color: var(--white);
+    margin: 5px;
+    padding-bottom: 8px;
+    min-height: 55px;
+}
+
+.agenda__palestras__horario {
+    font-size: 0.75rem;
+    font-weight: var(--extrabold);
+    padding: 4px 0 0 7px;
+}
+
+.agenda__palestras__texto {
+    font-size: 0.875rem;
+    font-weight: var(--semibold);
+    padding: 5px 7px 0 7px;
+}
+
+/* Patrocinadores */
+
+.patrocinadores{
+    padding: 25px 20px 18px 20px;
+}
+
+.patrocinadores__title {
+    font-size: 1rem;
+    font-weight: var(--extrabold);
+}
+
+.logos__linha1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.logos__linha2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--darkblue);
+    padding: 0 20px;
+    color: var(--white);
+    justify-content: start;
+}
+
+.footer__logo {
+    padding-top: 20px;
+}
+
+.footer__container {
+    display: flex;
+}
+
+.footer__section {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 20px 0 30px 0;
+    width: 50%;
+}
+
+.footer__title {
+    font-size: 1rem;
+    font-weight: var(--extrabold);
+    padding-bottom: 5px;
+    
+}
+
+.footer__link {
+    font-size: 0.875rem;
+    font-weight: var(--semibold);
+    text-decoration: none;
+    color: var(--white);
+}
+
+.footer__textDireito {
+    font-size: 0.875rem;
+    font-weight: var(--extrabold);
+    text-align: center;
+    padding-bottom: 7px;
+}
+
+@media screen and (min-width: 767px) {
+    
+    body {
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    .aviso {
+        display: block;
+        background-color: rgb(247, 56, 56);
+        color: var(--white);
+        padding: 5px 20px;
+    }
+
+}

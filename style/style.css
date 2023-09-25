@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700;800&display=swap');
+
+@import url(/style/index.css);
+@import url(/style/home.css);
+
+:root {
+    --regular: 400;
+    --semibold: 600;
+    --bold: 700;
+    --extrabold: 800;
+    --gradient: linear-gradient(87deg, #295773 0%, #70731D 100%);
+    --blue: #5D9EA6;
+    --darkblue: #295773;
+    --green: #B0BF3B;
+    --darkgreen: #70731D;
+    --gray: #ABABAB;
+    --black: #000;
+    --white: #FFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Assistant', sans-serif;
+}

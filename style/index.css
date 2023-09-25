@@ -1,0 +1,98 @@
+.containerIndex {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    background-image: url(/assents/bg-home.svg);
+    background-size: cover;
+    background-position: right;
+}
+
+.logoIndex {
+    padding-top: 10px;
+    max-width: 84px;
+}
+
+.sectionIndex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.sectionIndex__title {
+    font-size: 1.625rem;
+    font-weight: var(--extrabold);
+    text-align: center;
+    width: 9em;
+    margin-bottom: 15px;
+    line-height: 99.8%;
+    color: var(--white);
+}
+
+.sectionIndex__paragraph {
+    font-size: 1rem;
+    font-weight: var(--semibold);
+    text-align: center;
+    line-height: 99.8%;
+    margin-bottom: 15px;
+    color: var(--white);
+}
+
+.sectionIndex__buttons__right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionIndex__days {
+    font-size: 1em;
+    font-weight: var(--extrabold);
+    padding-bottom: 5px;
+    color: var(--white);
+}
+
+.sectionIndex__buttons {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.sectionIndex__buttons__evento {
+    align-self: flex-end;
+}
+
+.buttonIndex {
+    padding: 7px 20px;
+    border-radius: 20px;
+    background: var(--white);
+    color: var(--black);
+    font-weight: var(--extrabold);
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: 'Assistant', sans-serif;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.aviso {
+    display: none;
+}
+
+@media screen and (min-width: 767px) {
+    
+    body {
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    .aviso {
+        display: block;
+        background-color: rgb(247, 56, 56);
+        color: var(--white);
+        padding: 5px 20px;
+    }
+
+}
