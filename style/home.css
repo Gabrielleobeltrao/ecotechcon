@@ -97,23 +97,23 @@ strong {
 /* fotos - Palestrantes */
 
 .bgCristiano {
-    background-image: url(/assents/foto-cristiano-teixeira.svg);
+    background-image: url(/assents/foto-cristiano-teixeira.png);
 }
 
 .bgBemJerry {
-    background-image: url(/assents/foto-ben-cohen-e-jerry-greenfield.svg);
+    background-image: url(/assents/foto-ben-cohen-e-jerry-greenfield.png);
 }
 
 .bgRyan {
-    background-image: url(/assents/foto-ryan-gellert.svg);
+    background-image: url(/assents/foto-ryan-gellert.png);
 }
 
 .bgFabio {
-    background-image: url(/assents/foto-fabio-faccio.svg);
+    background-image: url(/assents/foto-fabio-faccio.png);
 }
 
 .bgEthan {
-    background-image: url(/assents/foto-ethan-brown.svg);
+    background-image: url(/assents/foto-ethan-brown.png);
 }
 
 /* Temas */
@@ -151,21 +151,21 @@ strong {
 /* fotos - Temas */
 
 .bgCarros {
-    background-image: url(/assents/card-carros-eletricos.svg);
+    background-image: url(/assents/card-carros-eletricos.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .bgTratamento {
-    background-image: url(/assents/card-tratamento-de-agua.svg);
+    background-image: url(/assents/card-tratamento-de-agua.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .bgPlacas {
-    background-image: url(/assents/card-placas-solares.svg);
+    background-image: url(/assents/card-placas-solares.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -240,7 +240,7 @@ strong {
     flex-direction: column;
     align-items: center;
     justify-content: end;
-    background-image: url(/assents/foto-ecovista-center.svg);
+    background-image: url(/assents/foto-ecovista-center.png);
     height: 248px;
     border-radius: 20px;
     background-repeat: no-repeat;

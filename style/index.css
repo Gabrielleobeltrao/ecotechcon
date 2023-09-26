@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: space-between;
     height: 100vh;
-    background-image: url(/assents/bg-home.svg);
+    background-image: url(/assents/bg-home.png);
     background-size: cover;
     background-position: right;
 }
