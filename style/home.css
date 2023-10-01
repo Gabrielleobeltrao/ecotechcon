@@ -365,12 +365,39 @@ strong {
 .logos__linha1 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-bottom: 5px;
+}
+
+.imgGoogle {
+    width: 122px;
+    height: 41px;
+}
+
+.imgItau {
+    width: 51px;
+    height: 51px;
+}
+
+.imgTesla {
+    width: 64px;
+    height: 66px;
 }
 
 .logos__linha2 {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+
+.imgZara {
+    width: 89px;
+    height: 52px;
+}
+
+.imgAmazon {
+    width: 137px;
+    height: 41px;
 }
 
 /* Footer */
